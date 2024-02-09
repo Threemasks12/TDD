@@ -130,10 +130,4 @@ else
 
 
 
-}
-else
-{
-    Console.WriteLine("Invalid input. Please enter a valid decimal number.");
-}
-
 */
