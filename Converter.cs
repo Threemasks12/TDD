@@ -1,18 +1,23 @@
 ﻿
-
-
-
-
-Console.WriteLine("write something");
-
-string input = Console.ReadLine();
-
-if(int.TryParse(input, out int number))
+namespace UnitConverters
 {
-    Console.WriteLine("🟢 Test pased");
+
+
+    public struct UnitRatios
+    {
+        public const double inchToMm = 25.4;
+        public const double inchToCm = 2.54;
+        public const double inchToM = 0.0254;
+    }
+
+
+    public class Converter
+    {
+
+    }
+
 
 }
-else
-{
-    Console.WriteLine("🔴 Test failed"); 
-};
+
+
+
