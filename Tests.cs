@@ -3,29 +3,31 @@ Console.WriteLine(UnitConverters.UnitRatios.inchToMm);
 
 Converter conv = new Converter();
 int tester = 3;
+double testerCm = 2.54;
 
-static int mutiply(int a, int b)
+static double mutiply(int a, double b)
 {
     return a * b;
 };
 
-var accually = mutiply(tester, 4);
+var accually = mutiply(tester, testerCm);
 
 try
 {
-    if (accually is int)
+    if (accually is double)
     {
         Console.WriteLine("🟢 Test passed");
     }
     else
     {
-        Console.WriteLine("🔴 Test failed");
+        Console.WriteLine("🔴 Test failed 2");
     }
 }
 catch
 {
     Console.WriteLine("🔴 Test failed");
 }
+
 
 
 
